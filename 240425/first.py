@@ -34,5 +34,10 @@ number02 = 10
 result = number01 + number02
 print(number01, "+", number02, "=", result)
 
-# 상수 : 절대값(대문자 작성)
+# 상수 : 절대값(대문자 작성 - But 파이썬은 상수를 인식하지 않는다. 개발자간의 규칙 정도로 생각하자)
+PI = 3
 PI = 3.14
+
+# 타입 체크
+print(type(PI))
+print(type(address))
